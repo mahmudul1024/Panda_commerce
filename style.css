@@ -1,58 +1,67 @@
-.container{
-    margin-bottom: 100px;
-}
-.orange-bg{
-    background-color: #fceae8;
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
     border-radius: 10px;
-}
-.carousel-item{
-    padding: 20px 40px;
-}
-.price{
-    color: #FF136F;
-}
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
-}
-.cat1, .cat2, .cat3{
-    padding: 10px 30px;
-    border-radius: 10px;
-}
-.cat1{
-    background-color: orange;
-}
-.cat2{
-    background-color: orchid;
-}
-.cat3{
-    background-color: blue;
-}
-.categories h1{
+  }
+
+  /* Style the "active" element to highlight the current page */
+nav a.active {
+    background-color: #2196F3;
     color: white;
-}
-.categories img{
-    width: 100px;
-}
-.card{
-    border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+
+    
+  }
+
+  /* Style the search box inside the navigation bar */
+nav input[type=text] {
+    float: right;
+    padding: 8px;
+    border-radius: 0 10px 10px 0;
+    
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid rgb(34, 189, 143);
+    
+
+
+    
+  }
+
+  nav .search-container {
+    float: left;
+  }
+
+  nav .search-container button {
+    float: right;
+    padding: 8px 10px;
+    
+    margin-bottom: 5px;
+    
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(34, 189, 143);
+    border-radius: 10px 0 0 10px;
+    
+  }
+
+  nav .search-container button:hover {
+    background: #ccc;
+  }
+
+
+  /* navigation style complete */
+
+
+
+  /* carousel start-----------------------------------
+   */
+
+.backcolor{
+    background-color: #FEEAE9;
 }
-.card-footer{
-    background-color: white;
-    border-top: none;
-}
-#subscribe{
-    height: 300px;
-}
-#subscribe h6{
-    color: gray;
-}
-footer{
-    text-align: center;
-}
+  
